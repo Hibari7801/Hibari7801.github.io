@@ -1,0 +1,37 @@
+*{
+    font-family: "Patrick Hand";
+}
+header{
+    background-color: #2a1e1e;
+}
+.nav-item a{
+    color: #f99fa9;
+}
+#perfilb{
+    background-color:#503850;
+}
+.nav-item a:hover{
+    color:#ffc5c1
+}
+#app{
+    color: #aa6581;
+}
+.botoncv{
+    background-color: #ffc5c1;
+    border-color: #2a1e1e;
+    color: #aa6581;
+}
+.cajahabilidades{
+    background-color: #503850;
+}
+.btn-proyect{
+    background-color: #ffc5c1;
+    color: #2a1e1e;
+}
+.btn-proyect a{
+    text-decoration: none;
+    color: #2a1e1e;
+}
+.carrusel{
+    background-color: #503850;
+}
