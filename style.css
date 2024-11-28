@@ -35,3 +35,20 @@ header{
 .carrusel{
     background-color: #503850;
 }
+.card-subtitle{
+    color: #503850;
+}
+.btn-con{
+    background-color: #f99fa9;
+    color:#503850;
+}
+.btn-cont a:hover{
+    color: #2a1e1e;
+}
+.pie a{
+    color:#503850;
+    text-decoration-line: none;
+}
+.pie a:hover{
+    color:#aa6581;
+}
