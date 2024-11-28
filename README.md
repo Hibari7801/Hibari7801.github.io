@@ -13,5 +13,16 @@ ____
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
 ________
+### Vista Previa
 
-![Proyecto]
+![Proyecto](assets/incio.png)
+![Proyecto](assets/habilidades.png)
+![Proyecto](assets/proyectos.png)
+![Proyecto](assets/testimonios.png)
+![Proyecto](assets/Contacto.png)
+
+### *¡Espero poder trabajar contigo en un futuro cercano!*
+*Mi correo*: [alondra.munoztri@gmail.com](mailto:alondra.munoztri@gmail.com)
+______
+
+Creado durante el bootcamp de [Tecnolochicas Pro](https://tecnolochicas.mx) 💜
