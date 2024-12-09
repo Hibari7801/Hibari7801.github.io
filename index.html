@@ -47,9 +47,13 @@
         <!-- para poner el texto animado que se edita en el js-->
         <h2 id="app"></h2>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Pasante de actuaría</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4 botoncv">Ver CV</button>
+          <p class="lead mb-4">Egresada de Actuaria con un gran interés en análisis de datos y en el
+            análisis financiero. Aprendiz de programación con un interés en cualquier
+            lenguaje que nos permita realizar un análisis e interactuar con el usuario.</p>
+          <div id="btncv" class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4 botoncv"><a target="_blank"
+                href="https://drive.google.com/file/d/1YKcULcPABVYsVAuPccZ6OA_ioVb1QNH1/view?usp=sharing">Ver
+                CV</a></button>
           </div>
         </div>
       </div>
@@ -60,19 +64,7 @@
         <h2 class="pb-2 border-bottom text-center">Habilidades</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
           <div class="col d-flex align-items-start">
-            <!-- <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg> -->
-            <!-- aquí ponemos el icon -->
-            <i class="bi bi-pc-display fs-3"></i>
-            <div class="p-2">
-              <h3 class="fw-bold mb-0 fs-4 ">Desarrollo Fronted</h3>
-              <!-- mb (margin bottom) y mt (margin top)-->
-              <p>He creado sitios web responsivos aplicando los conocimientos obtenidos durante el bootcamp de
-                Tecnolochicas PRO.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <i class="bi bi-code-square fs-3"></i>
+            <i class="bi bi-list-columns fs-3"></i>
             <div class="p-2">
               <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Pensamiento Lógico</h3>
               <p>Esta facilidad se traduce en un buen entendimiento de las matemáticas y ciertas lógicas de programación
@@ -87,6 +79,48 @@
                 escolares y proyectos de publicidad</p>
             </div>
           </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-journals fs-3"></i>
+            <div class="p-2">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Enseñanza</h3>
+              <p>Desde grados básicos he dado tutorias de manera individual, lo cual me ha llevado a desarollar
+                habilidades para encontrar el estilo de aprendizaje de cada persona</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-diagram-3-fill fs-3"></i>
+            <div class="p-2">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Delegación</h3>
+              <p>En distintos proyectos me he visto en la necesidad de asumir el delegar tareas para llegar a nuestro objetivo</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-file-earmark-bar-graph fs-3"></i>
+            <div class="p-2">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Análisis financieros</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-terminal-fill fs-3"></i>
+            <div class="p-2">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">R Studio</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-file-earmark-code fs-3"></i>
+            <div class="p-2">
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C++</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <!-- <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg> -->
+            <!-- aquí ponemos el icon -->
+            <i class="bi bi-pc-display fs-3"></i>
+            <div class="p-2">
+              <h3 class="fw-bold mb-0 fs-4 ">Desarrollo Fronted</h3>
+              <!-- mb (margin bottom) y mt (margin top)-->
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -94,22 +128,6 @@
     <div id="proyectos" class=" proyectos container mb-5">
       <h2 class="pb-2 border-bottom text-center mt-5">Proyectos</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" src="assets/Primeraweb.png" alt="">
-            <div class="card-body">
-              <h3>Mi primera página web</h3>
-              <p class="card-text">Primera página web creada durante el bootcamp de thecnolochicas.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-proyect"><a href="">Ver</a></button>
-                  <button type="button" class="btn btn-sm btn-proyect"><a href="">Github</a></button>
-                </div>
-                <small class="text-body-secondary">HTML, CSS</small>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col">
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="assets/Clon_pinte.png" alt="">
@@ -130,19 +148,35 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="" alt="">
+            <img class="bd-placeholder-img card-img-top" src="assets/tareas_app.png" alt="">
             <div class="card-body">
-              <h3>No tengo más proyectos jeje.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-proyect"><a target="_blank" href="#">Ver</a></button>
-                    <button type="button" class="btn btn-sm btn-proyect"><a target="_blank" href="#">Github</a></button>
-                  </div>
+              <h3>Lista de tareas</h3>
+              <p class="card-text">Página interactiva To-Do.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-proyect"><a target="_blank" href="https://tareasapp-sigma.vercel.app/">Ver</a></button>
+                  <button type="button" class="btn btn-sm btn-proyect"><a target="_blank" href="https://github.com/Hibari7801/tareas">Github</a></button>
                 </div>
+                <small class="text-body-secondary">HTML, CSS</small>
+              </div>
             </div>
           </div>
         </div>
-
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="assets/Healthy_Life.png" alt="">
+            <div class="card-body">
+              <h3>Healthy Life</h3>
+              <p class="card-text">Análisis para la clasificación de pacientes de acuerdo a su peso,tomando en cuenta condiciones biológicas y hábitos de éstos.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-proyect"><a target="_blank" href="https://drive.google.com/drive/u/1/folders/164IxSt8_W5XekwyVv9oaw6-cAWOseNoV">Drive</a></button>
+                </div>
+                <small class="text-body-secondary">R Studio. Machine Learning</small>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -242,10 +276,10 @@
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a target="_blank" href="https://www.linkedin.com/in/alondra-muñoz-trinidad-94683a205/"
           class="nav-link px-2"><i class="bi bi-linkedin fs-4"></i></a></li>
-      <li class="nav-item"><a target="_blank" href="https://github.com/Hibari7801"
-          class="nav-link px-2"><i class="bi bi-github fs-4"></i></a></li>
-      <li class="nav-item"><a target="_blank" href="https://wa.me/5524442894"
-          class="nav-link px-2"><i class="bi bi-whatsapp fs-4"></i></a></li>
+      <li class="nav-item"><a target="_blank" href="https://github.com/Hibari7801" class="nav-link px-2"><i
+            class="bi bi-github fs-4"></i></a></li>
+      <li class="nav-item"><a target="_blank" href="https://wa.me/5524442894" class="nav-link px-2"><i
+            class="bi bi-whatsapp fs-4"></i></a></li>
     </ul>
     <p class="text-center pie">Realizado por Alondra Muñoz durante el bootcamp de <a target="_blank"
         href="https://tecnolochicas.mx">Tecnolochicas Pro</a></p>

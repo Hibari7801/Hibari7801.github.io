@@ -52,3 +52,10 @@ header{
 .pie a:hover{
     color:#aa6581;
 }
+#btncv a{
+    text-decoration: none;
+    color: #2a1e1e;
+}
+.btncv a:hover{
+    color: #2a1e1e;
+}
